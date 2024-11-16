@@ -1,0 +1,21 @@
+.header {
+   @apply flex justify-center items-center
+   sticky top-0 z-10
+   space-x-4 p-4
+   backdrop-blur-sm
+   shadow-header dark:shadow-header-dark
+   bg-gray-200 dark:bg-blue-500
+   bg-opacity-5 dark:bg-opacity-5;
+}
+
+.link {
+   @apply transition-transform duration-500 ease-in-out;
+}
+
+.link:hover {
+   @apply text-blue-500 scale-125;
+}
+
+.footer {
+   @apply shadow-footer dark:shadow-footer-dark;
+}

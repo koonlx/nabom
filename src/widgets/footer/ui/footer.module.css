@@ -1,0 +1,10 @@
+.footer {
+   @apply flex justify-center
+   items-center space-x-4 p-4 mt-auto
+   bg-gray-200 dark:bg-blue-500
+    shadow-footer dark:shadow-footer-dark
+    bg-opacity-5 dark:bg-opacity-5;
+}
+.footer > .link {
+   @apply underline text-primary;
+}
